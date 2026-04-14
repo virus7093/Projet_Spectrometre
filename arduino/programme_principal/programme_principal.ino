@@ -1,10 +1,10 @@
 // setup pour initialiser la carte
 
-#define led_B 3
+#define led_B 6
 
 #define led_G 5
 
-#define led_R 6
+#define led_R 7
 
 #define bouton 2
 
