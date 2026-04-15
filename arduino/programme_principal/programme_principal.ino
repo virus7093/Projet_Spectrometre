@@ -1,8 +1,8 @@
 // setup pour initialiser la carte
 
-#define led_B 6
+#define led_B 5
 
-#define led_G 5
+#define led_G 6
 
 #define led_R 7
 
@@ -47,19 +47,19 @@ void arbitrage_couleur(int col) {
     setColor(0, 130, 0);
   }
   if (col == 2) {  // Allumer la LED en bleu
-    setColor(0, 0, 150);
+    setColor(0, 0, 130);
   }
   if (col == 3) {  // Allumer la LED en jaune
     setColor(130, 130, 0);
   }
   if (col == 4) {  // Allumer la LED en violet
-    setColor(130, 0, 150);
+    setColor(130, 0, 130);
   }
   if (col == 5) {  // Allumer la LED en cyan
-    setColor(0, 130, 150);
+    setColor(0, 130, 130);
   }
   if (col == 6) {  // Allumer la LED en blanc
-    setColor(130, 130, 150);
+    setColor(130, 130, 130);
   }
 }
 
