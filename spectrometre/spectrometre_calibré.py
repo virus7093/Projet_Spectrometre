@@ -60,7 +60,7 @@ def main():
     while True:
         ret, frame = cap.read() 
 
-        frame = frame[int(159):int(159+71), int(31):int(159+31)]
+        frame = frame[int(175):int(175+55), int(31):int(159+31)]
         frame = cv2.flip(frame, 1)
         if not ret:
             break
